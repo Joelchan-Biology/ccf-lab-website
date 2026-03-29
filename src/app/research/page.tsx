@@ -4,7 +4,7 @@ import Image from "next/image";
 export const metadata: Metadata = {
   title: "Research",
   description:
-    "Research areas of the CCF Lab — p53 biology, cancer therapeutics, genome topology, and translational research.",
+    "Research areas of the CCF Lab -p53 biology, cancer therapeutics, genome topology, and translational research.",
 };
 
 const areas = [
@@ -13,21 +13,21 @@ const areas = [
     title: "Molecular Vulnerabilities in Cancer",
     description: `We identify molecular vulnerabilities in cancers by studying DNA damage response networks and cellular metabolism. Our work has uncovered non-canonical functions of the p53 tumour suppressor in safeguarding DNA replication, including how p53 prevents transcription-replication conflicts and how a p53-dependent NRF2-PARP1 axis links redox metabolism to genome integrity. Through high-throughput screens, we have identified metabolic vulnerabilities in p53-deficient cancers that can be exploited therapeutically.`,
     image: "/images/nar-2024-graphical-abstract.jpeg",
-    imageAlt: "Graphical abstract — p53-dependent crosstalk between DNA replication integrity and redox metabolism via NRF2-PARP1 axis (Elfar et al., NAR 2024)",
+    imageAlt: "Graphical abstract -p53-dependent crosstalk between DNA replication integrity and redox metabolism via NRF2-PARP1 axis (Elfar et al., NAR 2024)",
     keyPapers: [
-      "Elfar et al., Nucleic Acids Research (2024) — NRF2-PARP1 axis",
-      "Kumar et al., Nature Communications (2018) — mitochondrial uncoupling in p53-defective cancers",
-      "Yeo et al., Cell Reports (2016) — transcription-replication conflicts",
+      "Elfar et al., Nucleic Acids Research (2024) -NRF2-PARP1 axis",
+      "Kumar et al., Nature Communications (2018) -mitochondrial uncoupling in p53-defective cancers",
+      "Yeo et al., Cell Reports (2016) -transcription-replication conflicts",
     ],
   },
   {
     id: "novel-therapeutics",
     title: "Novel Therapeutics",
-    description: `We develop novel therapeutics through in silico and structure-activity relationship (SAR) studies. Our approach combines computational drug discovery with experimental validation, including drug repurposing strategies and combination therapies that exploit synthetic lethal interactions in cancer cells. We have demonstrated the potential of targeting multiple cancer signalling nodes — including p53 reactivation, NF-κB pathway inhibition, and cell-cycle kinase modulation — to selectively kill cancer cells while sparing normal tissue.`,
+    description: `We develop novel therapeutics through in silico and structure-activity relationship (SAR) studies. Our approach combines computational drug discovery with experimental validation, including drug repurposing strategies and combination therapies that exploit synthetic lethal interactions in cancer cells. We have demonstrated the potential of targeting multiple cancer signalling nodes -including p53 reactivation, NF-κB pathway inhibition, and cell-cycle kinase modulation -to selectively kill cancer cells while sparing normal tissue.`,
     keyPapers: [
-      "Kong et al., Nature Communications (2020) — targeting codon 158 p53-mutant cancers",
-      "Cheok et al., Cell Death & Differentiation (2010) — nutlin + VX-680 combination",
-      "Cheok et al., Nature Reviews Clinical Oncology (2011) — translating p53 to the clinic",
+      "Kong et al., Nature Communications (2020) -targeting codon 158 p53-mutant cancers",
+      "Cheok et al., Cell Death & Differentiation (2010) -nutlin + VX-680 combination",
+      "Cheok et al., Nature Reviews Clinical Oncology (2011) -translating p53 to the clinic",
     ],
   },
   {
@@ -35,8 +35,8 @@ const areas = [
     title: "Molecular Signatures & Drug Response",
     description: `We identify molecular signatures that predict drug response through gene network analysis. By integrating genomics, transcriptomics, and computational approaches, we aim to understand why certain tumours respond to specific therapies and to develop predictive biomarkers that can guide treatment decisions. This work bridges fundamental cancer biology with clinical application, enabling more precise and personalised therapeutic strategies.`,
     keyPapers: [
-      "Goh et al., Int. J. Mol. Sci. (2025) — molecular cues in endometriosis and ovarian cancer",
-      "Cheok, Cell Cycle (2012) — protecting normal cells from chemotherapy",
+      "Goh et al., Int. J. Mol. Sci. (2025) -molecular cues in endometriosis and ovarian cancer",
+      "Cheok, Cell Cycle (2012) -protecting normal cells from chemotherapy",
     ],
   },
 ];
@@ -50,7 +50,7 @@ export default function ResearchPage() {
           <h1 className="text-3xl md:text-4xl font-bold">Research</h1>
           <p className="mt-4 text-lg text-white/80 max-w-2xl">
             We identify bottlenecks in cancer signalling pathways and design new
-            therapeutic targets — focusing on DNA damage and metabolic pathways.
+            therapeutic targets -focusing on DNA damage and metabolic pathways.
           </p>
         </div>
       </section>

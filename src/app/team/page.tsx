@@ -4,7 +4,7 @@ import Image from "next/image";
 export const metadata: Metadata = {
   title: "Team",
   description:
-    "Meet the CCF Lab team — researchers and students at IMCB A*STAR and NUS.",
+    "Meet the CCF Lab team - researchers and students at IMCB A*STAR and NUS.",
 };
 
 const pi = {

@@ -16,7 +16,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: {
-    default: "CCF Lab — Cancer Signalling & Therapeutic Discovery",
+    default: "CCF Lab - Cancer Signalling & Therapeutic Discovery",
     template: "%s | CCF Lab",
   },
   description:

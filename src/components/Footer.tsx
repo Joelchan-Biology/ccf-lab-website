@@ -12,11 +12,11 @@ export default function Footer() {
               Cancer signalling, p53 biology &amp; therapeutic discovery
             </p>
             <p className="text-sm mt-3 leading-relaxed">
-              Institute of Molecular and Cell Biology (IMCB)
+              Department of Pathology
               <br />
-              Agency for Science, Technology and Research (A*STAR)
+              Yong Loo Lin School of Medicine
               <br />
-              Singapore
+              National University of Singapore
             </p>
           </div>
 
@@ -69,12 +69,12 @@ export default function Footer() {
             <ul className="space-y-2 text-sm">
               <li>
                 <a
-                  href="https://scholar.google.com/citations?user=-6NQTF8AAAAJ&hl=en"
+                  href="https://medicine.nus.edu.sg/patho/team-member/cheok-chit-fang/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:text-white transition-colors"
                 >
-                  Google Scholar
+                  NUS Pathology
                 </a>
               </li>
               <li>
@@ -89,12 +89,12 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  href="https://medicine.nus.edu.sg/patho/team-member/cheok-chit-fang/"
+                  href="https://scholar.google.com/citations?user=-6NQTF8AAAAJ&hl=en"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:text-white transition-colors"
                 >
-                  NUS Pathology
+                  Google Scholar
                 </a>
               </li>
             </ul>

@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Publications",
   description:
-    "Selected publications from the CCF Lab — cancer signalling, p53 biology, and therapeutic discovery.",
+    "Selected publications from the CCF Lab - cancer signalling, p53 biology, and therapeutic discovery.",
 };
 
 type Publication = {
@@ -107,7 +107,6 @@ const publications: Publication[] = [
     year: 2011,
     doi: "10.1038/nrclinonc.2010.174",
     highlight: true,
-    note: "471 citations",
   },
   {
     title: "p53-based cancer therapy",
@@ -115,7 +114,6 @@ const publications: Publication[] = [
     journal: "Cold Spring Harbor Perspectives in Biology",
     year: 2010,
     doi: "10.1101/cshperspect.a001222",
-    note: "361 citations",
   },
   {
     title:
@@ -148,7 +146,6 @@ const publications: Publication[] = [
     journal: "Nucleic Acids Research",
     year: 2005,
     doi: "10.1093/nar/gki712",
-    note: "181 citations",
   },
 ];
 
@@ -175,16 +172,17 @@ export default function PublicationsPage() {
             </a>{" "}
             profile.
           </p>
-          <div className="mt-4 flex gap-6 text-sm text-white/60">
-            <span>
-              <strong className="text-white">2,816</strong> total citations
-            </span>
-            <span>
-              <strong className="text-white">22</strong> h-index
-            </span>
-            <span>
-              <strong className="text-white">29</strong> i10-index
-            </span>
+          <div className="mt-4 text-sm text-white/60">
+            See{" "}
+            <a
+              href="https://scholar.google.com/citations?user=-6NQTF8AAAAJ&hl=en"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="underline text-white/80 hover:text-white"
+            >
+              Google Scholar
+            </a>{" "}
+            for up-to-date citation metrics.
           </div>
         </div>
       </section>

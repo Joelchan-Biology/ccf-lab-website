@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Contact",
   description:
-    "Contact the CCF Lab at IMCB A*STAR and NUS — locations, profiles, and how to join.",
+    "Contact the CCF Lab at IMCB A*STAR and NUS - locations, profiles, and how to join.",
 };
 
 const profiles = [

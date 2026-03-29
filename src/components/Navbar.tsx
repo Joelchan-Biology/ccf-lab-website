@@ -55,6 +55,8 @@ export default function Navbar() {
           onClick={() => setMobileOpen(!mobileOpen)}
           className="md:hidden p-2 rounded-md hover:bg-gray-100 transition-colors"
           aria-label="Toggle menu"
+          aria-expanded={mobileOpen}
+          aria-controls="mobile-menu"
         >
           <svg
             className="w-5 h-5"
@@ -83,7 +85,7 @@ export default function Navbar() {
 
       {/* Mobile menu */}
       {mobileOpen && (
-        <div className="md:hidden border-t border-border bg-white">
+        <div id="mobile-menu" className="md:hidden border-t border-border bg-white" role="navigation" aria-label="Mobile menu">
           <ul className="px-4 py-2">
             {navLinks.map(({ href, label }) => {
               const isActive =

@@ -60,7 +60,7 @@ export default function Home() {
           </h1>
           <p className="mt-6 text-lg md:text-xl text-white/85 max-w-2xl leading-relaxed">
             We identify bottlenecks in cancer signalling pathways and design new
-            therapeutic targets that counteract the growth of cancer cells —
+            therapeutic targets that counteract the growth of cancer cells,
             focusing on drug and RNAi therapeutics in the DNA damage and
             metabolic pathways.
           </p>
