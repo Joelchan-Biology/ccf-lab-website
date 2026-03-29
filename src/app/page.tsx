@@ -227,13 +227,22 @@ export default function Home() {
         <p className="text-muted mb-8 max-w-xl">
           Get a glimpse into our research and lab culture.
         </p>
-        <div className="max-w-3xl">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           <div className="aspect-video rounded-xl overflow-hidden bg-gray-100">
             <iframe
               className="w-full h-full"
               src="https://www.youtube.com/embed/GTYJ4NspHNk"
               title="CCF Lab"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            />
+          </div>
+          <div className="aspect-video rounded-xl overflow-hidden bg-gray-100">
+            <iframe
+              className="w-full h-full"
+              src="https://player.vimeo.com/video/251988900"
+              title="CCF Lab Research"
+              allow="autoplay; fullscreen; picture-in-picture"
               allowFullScreen
             />
           </div>
