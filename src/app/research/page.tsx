@@ -16,7 +16,9 @@ const areas = [
     imageAlt: "Graphical abstract -p53-dependent crosstalk between DNA replication integrity and redox metabolism via NRF2-PARP1 axis (Elfar et al., NAR 2024)",
     keyPapers: [
       "Elfar et al., Nucleic Acids Research (2024) -NRF2-PARP1 axis",
+      "Aning & Cheok, J. Mol. Cell Biol. (2019) -drugging in the absence of p53",
       "Kumar et al., Nature Communications (2018) -mitochondrial uncoupling in p53-defective cancers",
+      "Kumar & Cheok, Scientific Reports (2017) -RIF1 SUMOylation and genomic stability",
       "Yeo et al., Cell Reports (2016) -transcription-replication conflicts",
     ],
   },
@@ -25,9 +27,10 @@ const areas = [
     title: "Novel Therapeutics",
     description: `We develop novel therapeutics through in silico and structure-activity relationship (SAR) studies. Our approach combines computational drug discovery with experimental validation, including drug repurposing strategies and combination therapies that exploit synthetic lethal interactions in cancer cells. We have demonstrated the potential of targeting multiple cancer signalling nodes -including p53 reactivation, NF-κB pathway inhibition, and cell-cycle kinase modulation -to selectively kill cancer cells while sparing normal tissue.`,
     keyPapers: [
+      "Ngai et al., Int. J. Mol. Sci. (2021) -nitro-deficient niclosamide SAR study",
       "Kong et al., Nature Communications (2020) -targeting codon 158 p53-mutant cancers",
-      "Cheok et al., Cell Death & Differentiation (2010) -nutlin + VX-680 combination",
       "Cheok et al., Nature Reviews Clinical Oncology (2011) -translating p53 to the clinic",
+      "Cheok et al., Cell Death & Differentiation (2010) -nutlin + VX-680 combination",
     ],
   },
   {

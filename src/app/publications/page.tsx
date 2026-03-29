@@ -42,17 +42,16 @@ const publications: Publication[] = [
     journal: "Nucleic Acids Research",
     year: 2024,
     doi: "10.1093/nar/gkae457",
-    highlight: true,
   },
   {
     title:
-      "Engineering an autonomous VH domain to modulate intracellular pathways and to interrogate the eIF4F complex",
-    authors: "Frosi Y, Lin YC, Jiang S, ... Cheok CF et al.",
-    journal: "Nature Communications",
-    year: 2022,
-    doi: "10.1038/s41467-022-32463-1",
+      "Nitro-deficient niclosamide confers reduced genotoxicity and retains mitochondrial uncoupling activity for cancer therapy",
+    authors: "Ngai TW, Elfar GA, Yeo P, Phua N, Hor JH, Chen S, Ho YS, Cheok CF",
+    journal: "Int. J. Mol. Sci.",
+    year: 2021,
+    doi: "10.3390/ijms221910420",
+    highlight: true,
   },
-
   // ── Featured / Highlighted ──
   {
     title:
@@ -61,6 +60,14 @@ const publications: Publication[] = [
     journal: "Nature Communications",
     year: 2020,
     doi: "10.1038/s41467-020-15608-y",
+  },
+  {
+    title:
+      "Drugging in the absence of p53",
+    authors: "Aning OA, Cheok CF",
+    journal: "Journal of Molecular Cell Biology",
+    year: 2019,
+    doi: "10.1093/jmcb/mjz012",
     highlight: true,
   },
   {
@@ -75,11 +82,29 @@ const publications: Publication[] = [
   },
   {
     title:
+      "Dynamics of RIF1 SUMOylation is regulated by PIAS4 in the maintenance of genomic stability",
+    authors: "Kumar R, Cheok CF",
+    journal: "Scientific Reports",
+    year: 2017,
+    doi: "10.1038/s41598-017-16934-w",
+    highlight: true,
+  },
+  {
+    title:
+      "Cyclin-dependent kinase-dependent phosphorylation of Sox2 at serine 39 regulates neurogenesis",
+    authors: "Lim S, Bhinge A, Bragado Alonso S, ... Cheok CF, ...",
+    journal: "Molecular and Cellular Biology",
+    year: 2017,
+    doi: "10.1128/mcb.00201-17",
+  },
+  {
+    title:
       "Exploiting the p53 pathway for therapy",
     authors: "Cheok CF, Lane DP",
     journal: "Cold Spring Harbor Perspectives in Medicine",
     year: 2017,
     doi: "10.1101/cshperspect.a026310",
+    highlight: true,
   },
   {
     title:
@@ -99,6 +124,7 @@ const publications: Publication[] = [
     journal: "DNA Repair",
     year: 2014,
     doi: "10.1016/j.dnarep.2013.12.004",
+    highlight: true,
   },
   {
     title: "Translating p53 into the clinic",
@@ -122,6 +148,7 @@ const publications: Publication[] = [
     journal: "Cell Death & Differentiation",
     year: 2010,
     doi: "10.1038/cdd.2010.26",
+    highlight: true,
   },
   {
     title:
@@ -138,6 +165,7 @@ const publications: Publication[] = [
     journal: "Molecular Cancer Research",
     year: 2007,
     doi: "10.1158/1541-7786.MCR-07-0161",
+    highlight: true,
   },
   {
     title:
@@ -146,6 +174,7 @@ const publications: Publication[] = [
     journal: "Nucleic Acids Research",
     year: 2005,
     doi: "10.1093/nar/gki712",
+    highlight: true,
   },
 ];
 
