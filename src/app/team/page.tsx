@@ -52,10 +52,14 @@ const members = [
 ];
 
 const alumni = [
-  { name: "Gamal Ahmed Elfar", current: "Postdoc" },
+  { name: "Gamal Ahmed Elfar", current: "Research Fellow, Fox Chase Cancer Center, Temple University" },
+  { name: "Tsz Wai Ngai", current: "Research Fellow, NUS Yong Loo Lin School of Medicine" },
   { name: "Obed Akwasi Aning", current: "Postdoc, Chalmers University of Technology" },
   { name: "Joel Chan Wai Kit", current: "PhD Student, NYU" },
+  { name: "Pearlyn Yeo", current: "PhD Student, Nanyang Technological University" },
   { name: "Shang Hong Sim", current: "Machine Learning Engineer, Oumi" },
+  { name: "Ramesh Kumar", current: "Senior Scientist, Cancer Signaling & Therapies, IMCB" },
+  { name: "Constance Qiao Xin Yeo", current: "Scientist, Merck & Co." },
 ];
 
 export default function TeamPage() {
