@@ -21,6 +21,29 @@ export const metadata: Metadata = {
   },
   description:
     "The CCF Lab at IMCB A*STAR and NUS investigates cancer signalling pathways, p53 biology, and therapeutic strategies for cancer treatment.",
+  openGraph: {
+    title: "CCF Lab - Cancer Signalling & Therapeutic Discovery",
+    description:
+      "The CCF Lab at NUS Pathology and IMCB A*STAR investigates cancer signalling pathways, p53 biology, and therapeutic strategies for cancer treatment.",
+    url: "https://cheokchitfanglab.com",
+    siteName: "CCF Lab",
+    images: [
+      {
+        url: "/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "CCF Lab",
+      },
+    ],
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "CCF Lab - Cancer Signalling & Therapeutic Discovery",
+    description:
+      "The CCF Lab at NUS Pathology and IMCB A*STAR investigates cancer signalling pathways, p53 biology, and therapeutic strategies for cancer treatment.",
+    images: ["/og-image.png"],
+  },
 };
 
 export default function RootLayout({
