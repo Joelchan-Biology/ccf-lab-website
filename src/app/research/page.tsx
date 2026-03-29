@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 
 export const metadata: Metadata = {
   title: "Research",
@@ -11,6 +12,8 @@ const areas = [
     id: "molecular-vulnerabilities",
     title: "Molecular Vulnerabilities in Cancer",
     description: `We identify molecular vulnerabilities in cancers by studying DNA damage response networks and cellular metabolism. Our work has uncovered non-canonical functions of the p53 tumour suppressor in safeguarding DNA replication, including how p53 prevents transcription-replication conflicts and how a p53-dependent NRF2-PARP1 axis links redox metabolism to genome integrity. Through high-throughput screens, we have identified metabolic vulnerabilities in p53-deficient cancers that can be exploited therapeutically.`,
+    image: "/images/nar-2024-graphical-abstract.jpeg",
+    imageAlt: "Graphical abstract — p53-dependent crosstalk between DNA replication integrity and redox metabolism via NRF2-PARP1 axis (Elfar et al., NAR 2024)",
     keyPapers: [
       "Elfar et al., Nucleic Acids Research (2024) — NRF2-PARP1 axis",
       "Kumar et al., Nature Communications (2018) — mitochondrial uncoupling in p53-defective cancers",
@@ -73,6 +76,20 @@ export default function ResearchPage() {
                 <p className="text-muted leading-relaxed whitespace-pre-line">
                   {area.description}
                 </p>
+                {"image" in area && area.image && (
+                  <div className="mt-6">
+                    <Image
+                      src={area.image}
+                      alt={("imageAlt" in area && area.imageAlt as string) || ""}
+                      width={600}
+                      height={300}
+                      className="rounded-lg border border-border w-full"
+                    />
+                    <p className="text-xs text-muted mt-2 italic">
+                      {("imageAlt" in area && area.imageAlt as string) || ""}
+                    </p>
+                  </div>
+                )}
               </div>
               <div className="lg:border-l lg:border-border lg:pl-6">
                 <h3 className="text-xs font-bold text-muted uppercase tracking-wider mb-3">
