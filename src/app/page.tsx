@@ -49,7 +49,7 @@ export default function Home() {
       <section className="relative bg-gradient-to-br from-primary-dark via-primary to-primary-light text-white overflow-hidden">
         <div className="absolute inset-0 opacity-10">
           <div className="absolute top-20 left-10 w-72 h-72 bg-accent rounded-full blur-3xl" />
-          <div className="absolute bottom-10 right-20 w-96 h-96 bg-white rounded-full blur-3xl" />
+          <div className="absolute bottom-10 right-1/3 w-96 h-96 bg-white rounded-full blur-3xl" />
         </div>
         <div className="relative max-w-6xl mx-auto px-6 py-24 md:py-32">
           <p className="text-accent text-sm font-semibold tracking-widest uppercase mb-4">
