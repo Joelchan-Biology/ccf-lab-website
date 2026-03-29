@@ -26,7 +26,10 @@ const areas = [
     id: "novel-therapeutics",
     title: "Novel Therapeutics",
     description: `We develop novel therapeutics through in silico and structure-activity relationship (SAR) studies. Our approach combines computational drug discovery with experimental validation, including drug repurposing strategies and combination therapies that exploit synthetic lethal interactions in cancer cells. We have demonstrated the potential of targeting multiple cancer signalling nodes -including p53 reactivation, NF-κB pathway inhibition, and cell-cycle kinase modulation -to selectively kill cancer cells while sparing normal tissue.`,
+    image: "/images/cell-reports-2016-graphical-abstract.jpg",
+    imageAlt: "Graphical abstract - p53 maintains genomic stability by preventing transcription-replication conflicts, with synthetic lethality via TOP2 poisons (Yeo et al., Cell Reports 2016)",
     keyPapers: [
+      "Yeo et al., Cell Reports (2016) -synthetic lethality via TOP2 poisons in p53-deficient cancers",
       "Ngai et al., Int. J. Mol. Sci. (2021) -nitro-deficient niclosamide SAR study",
       "Kong et al., Nature Communications (2020) -targeting codon 158 p53-mutant cancers",
       "Cheok et al., Nature Reviews Clinical Oncology (2011) -translating p53 to the clinic",
