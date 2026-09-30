@@ -42,12 +42,29 @@ Her lab combines high-throughput screening, genomics, and animal model studies t
 
 const members = [
   {
-    category: "Graduate Students",
+    category: "PhD Students",
     people: [
-      { name: "Fang Zi Yu", role: "Graduate Student" },
-      { name: "Lu Si Xiao", role: "Graduate Student" },
-      { name: "Lin Xinyi", role: "Graduate Student" },
-      { name: "Chua Boon Lin", role: "Graduate Student" },
+      {
+        name: "Fang Ziyu",
+        programme: "NUSMed",
+        thesis: "Targeting Cancer Metabolism for Precision Medicine",
+      },
+      {
+        name: "Lu Sixiao",
+        programme: "NUSMed",
+        thesis: "Targeting Cancer Metabolism for Precision Medicine",
+      },
+      {
+        name: "Lin Xinyi",
+        programme: "NUSMed",
+        thesis: "Deciphering Mechanisms of Genomic Instability in Tumour Evolution",
+      },
+      {
+        name: "Chua Boon Lin",
+        programme: "NUSMed",
+        thesis:
+          "Engineering Targeted Nanoparticle Delivery Platforms Through Multi-omics Mapping for Next Generation RNA Therapies",
+      },
     ],
   },
 ];
@@ -145,22 +162,28 @@ export default function TeamPage() {
           <h2 className="text-2xl font-bold text-primary mb-8">
             Current Members
           </h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="space-y-10">
             {members.map((group) => (
               <div key={group.category}>
                 <h3 className="text-sm font-bold text-muted uppercase tracking-wider mb-4">
                   {group.category}
                 </h3>
-                <div className="space-y-3">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   {group.people.map((person) => (
                     <div
                       key={person.name}
-                      className="p-4 bg-white rounded-lg border border-border"
+                      className="p-5 bg-white rounded-lg border border-border"
                     >
                       <p className="font-medium text-foreground">
                         {person.name}
                       </p>
-                      <p className="text-sm text-muted">{person.role}</p>
+                      <p className="text-sm text-muted">{person.programme}</p>
+                      <p className="text-sm text-muted mt-2">
+                        <span className="font-medium text-foreground">
+                          Thesis:
+                        </span>{" "}
+                        {person.thesis}
+                      </p>
                     </div>
                   ))}
                 </div>
