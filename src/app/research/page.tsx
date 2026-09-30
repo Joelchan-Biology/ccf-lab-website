@@ -41,6 +41,7 @@ const areas = [
     title: "Molecular Signatures & Drug Response",
     description: `We identify molecular signatures that predict drug response through gene network analysis. By integrating genomics, transcriptomics, and computational approaches, we aim to understand why certain tumours respond to specific therapies and to develop predictive biomarkers that can guide treatment decisions. This work bridges fundamental cancer biology with clinical application, enabling more precise and personalised therapeutic strategies.`,
     keyPapers: [
+      "Sundararajan et al., Oncogene (2026) -ovarian cancer subtypes predicting ATR inhibitor sensitivity",
       "Goh et al., Int. J. Mol. Sci. (2025) -molecular cues in endometriosis and ovarian cancer",
       "Cheok, Cell Cycle (2012) -protecting normal cells from chemotherapy",
     ],

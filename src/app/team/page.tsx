@@ -47,6 +47,7 @@ const members = [
       { name: "Fang Zi Yu", role: "Graduate Student" },
       { name: "Lu Si Xiao", role: "Graduate Student" },
       { name: "Lin Xinyi", role: "Graduate Student" },
+      { name: "Chua Boon Lin", role: "Graduate Student" },
     ],
   },
 ];

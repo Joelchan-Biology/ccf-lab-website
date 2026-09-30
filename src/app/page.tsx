@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { publications } from "@/data/publications";
 
 const highlights = [
   {
@@ -21,26 +22,10 @@ const highlights = [
   },
 ];
 
-const recentWork = [
-  {
-    year: "2024",
-    title:
-      "p53-dependent crosstalk between DNA replication integrity and redox metabolism mediated through a NRF2-PARP1 axis",
-    journal: "Nucleic Acids Research",
-  },
-  {
-    year: "2024",
-    title:
-      "PHF2 regulates genome topology and DNA replication in neural stem cells via cohesin",
-    journal: "Nucleic Acids Research",
-  },
-  {
-    year: "2025",
-    title:
-      "Cell migration in endometriosis responds to omentum-derived molecular cues similar to ovarian cancer",
-    journal: "Int. J. Mol. Sci.",
-  },
-];
+const recentWork = publications
+  .filter((p) => p.highlight)
+  .sort((a, b) => b.year - a.year)
+  .slice(0, 3);
 
 export default function Home() {
   return (
@@ -121,7 +106,7 @@ export default function Home() {
                 Recent Work
               </h2>
               <p className="text-muted">
-                Latest publications from the lab
+                Highlighted publications from the lab
               </p>
             </div>
             <Link
