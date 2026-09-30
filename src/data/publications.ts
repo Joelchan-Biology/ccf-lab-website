@@ -135,12 +135,62 @@ export const publications: Publication[] = [
     highlight: true,
   },
   {
+    title:
+      "Bringing p53 into the clinic",
+    authors: "Cheok CF",
+    journal: "Journal of Cancer Science & Therapy",
+    year: 2014,
+    doi: "10.4172/1948-5956.1000294",
+    highlight: true,
+  },
+  {
+    title:
+      "Protecting normal cells from the cytotoxicity of chemotherapy",
+    authors: "Cheok CF",
+    journal: "Cell Cycle",
+    year: 2012,
+    doi: "10.4161/cc.20961",
+    highlight: true,
+  },
+  {
+    title:
+      "Seeking synergy in p53 transcriptional activation for cancer therapy",
+    authors: "Cheok CF, Lane DP",
+    journal: "Discovery Medicine",
+    year: 2012,
+    highlight: true,
+  },
+  {
+    title:
+      "Mutant p53 interactome identifies nardilysin as a p53R273H-specific binding partner that promotes invasion",
+    authors: "Coffill CR, Muller PA, Oh HK, Neo SP, ... Cheok CF, Vousden KH, Lane DP, Blackstock WP, Gunaratne J",
+    journal: "EMBO Reports",
+    year: 2012,
+    doi: "10.1038/embor.2012.74",
+  },
+  {
     title: "Translating p53 into the clinic",
     authors: "Cheok CF, Verma CS, Baselga J, Lane DP",
     journal: "Nature Reviews Clinical Oncology",
     year: 2011,
     doi: "10.1038/nrclinonc.2010.174",
     highlight: true,
+  },
+  {
+    title:
+      "New insights into p53 based therapy",
+    authors: "Lane DP, Brown CJ, Verma C, Cheok CF",
+    journal: "Discovery Medicine",
+    year: 2011,
+    highlight: true,
+  },
+  {
+    title:
+      "Reactivation of p53: from peptides to small molecules",
+    authors: "Brown CJ, Cheok CF, Verma CS, Lane DP",
+    journal: "Trends in Pharmacological Sciences",
+    year: 2011,
+    doi: "10.1016/j.tips.2010.11.004",
   },
   {
     title: "p53-based cancer therapy",
@@ -155,16 +205,58 @@ export const publications: Publication[] = [
     authors: "Cheok CF, Kua N, Kaldis P, Lane DP",
     journal: "Cell Death & Differentiation",
     year: 2010,
-    doi: "10.1038/cdd.2010.26",
+    doi: "10.1038/cdd.2010.18",
     highlight: true,
   },
   {
     title:
+      "The p53 inducing drug dosage may determine quiescence or senescence",
+    authors: "Lane DP, Verma C, Cheok CF",
+    journal: "Aging",
+    year: 2010,
+    doi: "10.18632/aging.100229",
+    highlight: true,
+  },
+  {
+    title:
+      "The Mdm2 and p53 genes are conserved in the Arachnids",
+    authors: "Lane DP, Cheok CF, Brown CJ, Madhumalar A, Ghadessy FJ, Verma C",
+    journal: "Cell Cycle",
+    year: 2010,
+    doi: "10.4161/cc.9.4.10616",
+  },
+  {
+    title:
+      "Mdm2 and p53 are highly conserved from placozoans to man",
+    authors: "Lane DP, Cheok CF, Brown C, Madhumalar A, Ghadessy FJ, Verma C",
+    journal: "Cell Cycle",
+    year: 2010,
+    doi: "10.4161/cc.9.3.10516",
+  },
+  {
+    title:
       "WIP1 phosphatase is a negative regulator of NF-κB signalling",
-    authors: "Chew J, Biswas S, Shreeram S, ... Cheok CF, ... Lane DP",
+    authors: "Chew J, Biswas S, Shreeram S, ... Cheok CF, López-Collazo E, Bulavin DV, Tergaonkar V",
     journal: "Nature Cell Biology",
     year: 2009,
     doi: "10.1038/ncb1873",
+  },
+  {
+    title:
+      "New developments in small molecules targeting p53 pathways in anticancer therapy",
+    authors: "Cheok CF, Lane DP",
+    journal: "Drug Development Research",
+    year: 2008,
+    doi: "10.1002/ddr.20261",
+    highlight: true,
+  },
+  {
+    title:
+      "R-Roscovitine simultaneously targets both the p53 and NF-κB pathways and causes potentiation of apoptosis: implications in cancer therapy",
+    authors: "Dey A, Wong ET, Cheok CF, Tergaonkar V, Lane DP",
+    journal: "Cell Death & Differentiation",
+    year: 2008,
+    doi: "10.1038/sj.cdd.4402257",
   },
   {
     title:
@@ -177,11 +269,28 @@ export const publications: Publication[] = [
   },
   {
     title:
+      "Ubiquitin-independent degradation of p53 mediated by high-risk human papillomavirus protein E6",
+    authors: "Camus S, Menéndez S, Cheok CF, Stevenson LF, Laín S, Lane DP",
+    journal: "Oncogene",
+    year: 2007,
+    doi: "10.1038/sj.onc.1210188",
+  },
+  {
+    title:
       "The Bloom's syndrome helicase promotes the annealing of complementary single-stranded DNA",
     authors: "Cheok CF, Wu L, Garcia PL, Janscak P, Hickson ID",
     journal: "Nucleic Acids Research",
     year: 2005,
     doi: "10.1093/nar/gki712",
+    highlight: true,
+  },
+  {
+    title:
+      "Roles of the Bloom's syndrome helicase in the maintenance of genome stability",
+    authors: "Cheok CF, Bachrati CZ, Chan KL, Ralf C, Wu L, Hickson ID",
+    journal: "Biochemical Society Transactions",
+    year: 2005,
+    doi: "10.1042/bst0331456",
     highlight: true,
   },
 ];
