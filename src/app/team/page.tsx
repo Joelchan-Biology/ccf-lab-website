@@ -44,27 +44,9 @@ const members = [
   {
     category: "PhD Students",
     people: [
-      {
-        name: "Fang Ziyu",
-        programme: "NUSMed",
-        thesis: "Targeting Cancer Metabolism for Precision Medicine",
-      },
-      {
-        name: "Lu Sixiao",
-        programme: "NUSMed",
-        thesis: "Targeting Cancer Metabolism for Precision Medicine",
-      },
-      {
-        name: "Lin Xinyi",
-        programme: "NUSMed",
-        thesis: "Deciphering Mechanisms of Genomic Instability in Tumour Evolution",
-      },
-      {
-        name: "Chua Boon Lin",
-        programme: "NUSMed",
-        thesis:
-          "Engineering Targeted Nanoparticle Delivery Platforms Through Multi-omics Mapping for Next Generation RNA Therapies",
-      },
+      { name: "Fang Ziyu", programme: "NUSMed" },
+      { name: "Lu Sixiao", programme: "NUSMed" },
+      { name: "Lin Xinyi", programme: "NUSMed" },
     ],
   },
 ];
@@ -168,7 +150,7 @@ export default function TeamPage() {
                 <h3 className="text-sm font-bold text-muted uppercase tracking-wider mb-4">
                   {group.category}
                 </h3>
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
                   {group.people.map((person) => (
                     <div
                       key={person.name}
@@ -178,12 +160,6 @@ export default function TeamPage() {
                         {person.name}
                       </p>
                       <p className="text-sm text-muted">{person.programme}</p>
-                      <p className="text-sm text-muted mt-2">
-                        <span className="font-medium text-foreground">
-                          Thesis:
-                        </span>{" "}
-                        {person.thesis}
-                      </p>
                     </div>
                   ))}
                 </div>
